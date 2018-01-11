@@ -10,6 +10,7 @@ html, body {
 
 .section {
   text-align: center;
+  overflow: hidden;
 }
 
 /* put dots in top right corner */
