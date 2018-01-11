@@ -1,3 +1,90 @@
+/*************
+  defaults
+*************/
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .section {
   text-align: center;
+}
+
+/* put dots in top right corner */
+#fp-nav {
+  top: 5%;
+  right: 0;
+}
+
+/* white navbar dots */
+span {
+  background: white !important;
+}
+
+/* white to all text */
+div {
+  color: white;
+}
+
+/**************
+Page1
+**************/
+#bgVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-size: contain;
+  object-fit: cover; /*cover video background */
+  z-index: 1;
+}
+
+div.filter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 2;
+  background: rgba(0,0,0, 0.2);
+}
+
+div#layer {
+  position: absolute;
+  z-index: 3;
+  top: 40%;
+  width: 100%;
+  color: white;
+  font-size: 300%;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+}
+
+/****************
+Page2
+*****************/
+div.headings {
+  color: white;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+div.secondPageBlocks {
+  display: inline-block;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  width: 40%;
+  margin: 50px;
+  vertical-align: top;
+}
+
+/*********
+Page3
+**********/
+div.headingMargins {
+  padding: 10px;
 }
