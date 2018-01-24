@@ -29,6 +29,16 @@ div {
   color: white;
 }
 
+.shrinkAndHideImages {
+  opacity: 0.5;
+  width: 300px;
+  height: 300px;
+}
+
+.shrinkAndHideImages:hover {
+  opacity: 1;
+}
+
 /**************
 Page1
 **************/
