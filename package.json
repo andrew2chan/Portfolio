@@ -11,10 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "fullpage.js": "^2.9.5",
-    "npm": "^5.7.1",
+    "npm": "^6.9.0",
     "webpack": "^3.10.0"
   },
   "devDependencies": {
-    "webpack-dev-server": "^2.10.1"
+    "webpack-dev-server": "^3.3.1"
   }
 }

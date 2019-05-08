@@ -88,8 +88,8 @@ div.secondPageBlocks {
   display: inline-block;
   text-align: left;
   font-family: 'Open Sans', sans-serif;
-  width: 40%;
-  margin: 50px;
+  width: 300px;
+  margin: 25px;
   vertical-align: top;
 }
 
@@ -98,4 +98,8 @@ Page3
 **********/
 div.headingMargins {
   padding: 10px;
+}
+
+.descriptions {
+  text-align: left;
 }
